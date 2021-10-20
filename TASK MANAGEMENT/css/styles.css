@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  background-color: grey;
+}
+
+p {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.trim-3-lines {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.add__new__btn__modile__only {
+  position: fixed;
+  bottom: 0 !important;
+  right: 0 !important;
+  left: 0 !important;
+  padding: 15px 10px;
+  background: white;
+  z-index: 3;
+}
+.place__holder__image {
+  height: 200px;
+  width: 100%;
+}
+
+
+.task__card__title {
+  color: black;
+  transition: color 0.5s ; 
+}
+
+
+
+.task__card:hover .task__card__title {
+  color: #0D6EFD;
+}
+
+
+
+@media (min-width: 768px) {
+  .add__new__btn__modile__only {
+    display: none;
+  }
+}
+
+#nav-title{
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+#nav-content {
+  position: relative;
+  top: -3px;
+}
+
+#nav-icon {
+  position: relative;
+  color: white;
+}
+
+#plus-icon {
+  position: relative;
+  padding-right: 10px;
+}
+
+#trash-icon {
+  position: relative;
+  border: none;
+  outline: none;
+  background: none;
+  color: grey;
+  transition: color 0.5s;
+}
+
+#trash-icon:hover {
+  color: red;
+} 
+
+#edit-icon {
+  position: relative;
+  border: none;
+  outline: none;
+  background: none;
+  background: none;
+  color: grey;
+  transition: color 0.5s;
+}
+
+#edit-icon:hover {
+  color: black;
+}
+
+#hamburger {
+  position: relative;
+  background: none;
+  border: none;
+  color: grey;
+  transition: color 0.5s;
+}
+
+#hamburger:hover {
+  color: white;
+}
+
+#hamburger:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#addnewButton {
+  position: relative;
+  background: none;
+  border: none;
+  color: grey;
+  transition: color 0.5s;
+}
+
+#addnewButton:hover {
+  color: white;
+}
+
+#addnewButton:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 786px) {
+
+  #navbarSupportedContent{
+    position: relative;
+    text-align: center;
+    align-items: center;
+  }
+
+  #nav-content {
+    position: relative;
+    margin-top: 200px;
+  }
+
+  #addnewButton {
+    position: relative;
+    margin-bottom: 210px;
+  }
+
+  .modal-dialog{
+    position: relative;
+    height: 97%;
+  }
+}
+
+
+
+
+
+
+
+
+
